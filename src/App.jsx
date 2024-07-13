@@ -194,6 +194,10 @@ function App() {
             Khi add vào trên thanh input có thể Enter hoặc bấm vào nút Add để
             thêm hành động
           </li>
+          <li style={{ color: "red" }}>
+            Sau khi nhập xong trên thanh input thì hãy xóa giá trị để nhập giá
+            trị mới vì thanh input không tự xóa giá trị
+          </li>
         </p>
         <p>
           <li>
