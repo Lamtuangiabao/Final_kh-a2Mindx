@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  gap: "5%";
+}
+
+.container:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+}
+.input {
+  top: 18%;
+  position: absolute;
+  left: -9%;
+  width: 1%;
+}
