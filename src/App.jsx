@@ -18,10 +18,16 @@ function App() {
 
   const deleteall = () => {
     completed.map((item, index) => {
-      completed.splice(0, completed.length); //coi chỗ này
+      completed.splice(0, completed.length);
     });
     const y = [...completed];
     setCompleted(y);
+    //////
+    active.map((item, index) => {
+      active.splice(0, active.length);
+    });
+    const t = [...active];
+    setActive(t);
   };
   ////////
   const del = (n, id) => {
@@ -211,7 +217,10 @@ function App() {
           </li>
         </p>
         <p>
-          <li>Nếu muốn deleteAll thì nhấp vào button deleteAll </li>
+          <li>
+            Nếu muốn deleteAll thì nhấp vào button deleteAll,có thể xóa cả trong
+            tab active lẫn tab completed{" "}
+          </li>
         </p>
         <p style={{ color: "red" }}>
           <li>
